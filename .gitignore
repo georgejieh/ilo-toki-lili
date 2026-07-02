@@ -15,11 +15,14 @@ venv/
 .env.*
 !.env.example
 
-# Project-local private workspace
+# Local-only workspace
 .agents/
+AGENTS.md
 agents.MD
 agents.md
-AGENTS.md
+CLAUDE.md
+MASTER_PLAN.md
+.claude/
 .codex/
 .aider*
 .cursor/
@@ -30,6 +33,8 @@ data/raw/
 data/interim/
 data/processed/
 data/external/
+data/shards/
+data/tiers/corpus_t4/
 checkpoints/
 artifacts/
 outputs/
@@ -44,6 +49,9 @@ mlruns/
 
 # Notebooks
 .ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+notebooks/**/*.html
+notebooks/**/*.pdf
 
 # OS and editor noise
 .DS_Store

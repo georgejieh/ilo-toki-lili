@@ -1,12 +1,16 @@
 # Data
 
-Use this directory for local corpora and generated grounding datasets.
+This directory owns the dataset contract: vocabulary, schemas, tokenizer, grammar, synthetic world generation, review material, and shard-writing code.
 
-Suggested local layout:
+Tracked files here should be small, auditable, and reproducible. Large or license-sensitive inputs stay local under ignored directories such as `raw/`, `external/`, `interim/`, `processed/`, and `shards/`.
 
-- `raw/`: Original source material.
-- `external/`: Third-party datasets or exports.
-- `interim/`: Partially cleaned data.
-- `processed/`: Training-ready text, image metadata, and aligned grounding records.
+Planned modules:
 
-These subdirectories are ignored by git so large or license-sensitive materials do not enter the repository.
+- `vocab.json`: the frozen 137-word vocabulary plus special tokens.
+- `holdouts.json`: locked compositional holdout registry.
+- `schemas.py`: pydantic models shared by data generation, training, eval, and serving.
+- `tokenizer.py`: closed-vocabulary word tokenizer.
+- `grammar/`: Toki Pona grammar, description generation, parsing, and style filters.
+- `world/`: scene sampling, rendering, physics, sprites, and diversity audits.
+- `tiers/`: dataset tier generators and shard writer.
+- `review/`: human review prompts, verdicts, and release notes.

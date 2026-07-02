@@ -1,27 +1,54 @@
 # ilo toki lili
 
-ilo toki lili is a small Toki Pona language-modeling project for testing whether grounded training changes model behavior in fundamental ways.
+> nimi lili li ken jo e sona suli.
 
-The core comparison is:
+ilo toki lili is a small language-modeling project for Toki Pona. The question is simple: when a model learns a tiny language, does it behave differently if the words are tied to a small world it can see?
 
-1. A standard transformer trained on a text-only corpus.
-2. A standard transformer trained on a multimodal grounding corpus.
-3. A new grounded architecture trained on the same multimodal grounding corpus.
+Toki Pona is a good testbed because it makes every word work hard. Its vocabulary is small, its sounds are few, and its style rewards careful composition. That gives this project a pleasant constraint: build a world small enough to audit, then ask models to learn from it without hiding behind scale.
 
-Toki Pona keeps the language small enough for one-person experiments while still leaving room for meaning, reference, ambiguity, and compositional behavior.
+## The Bet
 
-## Repository Layout
+The project compares three matched small models:
 
-- `ilo_toki_lili/`: Python package for reusable code.
-- `scripts/`: Small command-line entry points for data preparation, training, and evaluation.
-- `experiments/`: Reproducible experiment definitions and public notes.
-- `data/`: Placeholder documentation for local datasets. Raw and generated data are ignored by git.
-- `tests/`: Test suite.
+| Codename | Model | Training signal | What it tests |
+|---|---|---|---|
+| `toki-taso` | decoder-only transformer | text only | the baseline |
+| `toki-lukin` | transformer with visual prefix | text plus rendered scenes | grounding with a standard architecture |
+| `toki-sona` | visual slots, recurrent world state, decoder | same grounded corpus | whether persistent state changes behavior |
 
-## Local Data
+All three models use the same Toki Pona vocabulary, the same text stream, and roughly the same parameter budget. The main evaluations are not about sounding fluent. They are about compositional generalization, contradiction detection, temporal reasoning, counterfactuals, and whether a model can connect a word it has only read about to a visual concept later.
 
-Large corpora, generated datasets, checkpoints, and run outputs are intentionally excluded from version control. Keep those under `data/`, `checkpoints/`, `outputs/`, or `runs/` as appropriate.
+## How It Works
 
-## Status
+The repo is organized around an auditable research pipeline:
 
-This project is in early research setup.
+1. Build a closed Toki Pona vocabulary and tokenizer.
+2. Generate a small visual world with scenes, entities, relations, and events.
+3. Render paired image and text data from verified scene descriptions.
+4. Lock holdout families before training.
+5. Train the three model families from scratch.
+6. Score them with forced-choice and parser-checked evaluations.
+7. Release a web app where people can try the models side by side.
+
+The grounding world is intentionally modest: simple shapes, sprites, movement, containment, transfer, eating, falling, breaking. The point is not photorealism. The point is whether words like `soweli`, `insa`, `pana`, or `pakala` become more than text patterns when the training setup gives them a world to live in.
+
+## Repository Map
+
+- `configs/`: experiment configs and ablation settings.
+- `data/`: vocabulary, schemas, tokenizer, grammar, world generation, review notes, and local dataset documentation.
+- `models/`: model architectures and parameter parity checks.
+- `train/`: training loops, curriculum scheduling, data loading, and reinforcement-learning code.
+- `eval/`: evaluation items, scoring, statistics, and report generation.
+- `serve/`: FastAPI service for model inference and scene rendering.
+- `web/`: public demo app.
+- `infra/`: cloud training and sync helpers.
+- `docs/`: research notes, project plan, and dated decisions.
+- `tests/`: test suite mirroring the source tree.
+
+Large datasets, checkpoints, run logs, and generated artifacts are local-only by default.
+
+## Current Status
+
+Phase 0 is beginning: repo structure, dependency policy, vocabulary, tokenizer, schemas, contamination checks, and the first reproducibility hooks.
+
+o kama pona. ilo ni li lili, taso wile sona ona li suli.
