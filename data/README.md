@@ -10,6 +10,7 @@ T4 ingestion should preserve per-item source URL or git commit, author when know
 
 Planned modules:
 
+- `VOCAB_SOURCE.md`: Linku source, acquisition, license, and attribution policy for vocabulary artifacts.
 - `vocab.json`: the frozen 137-word vocabulary plus special tokens.
 - `holdouts.json`: locked compositional holdout registry.
 - `schemas.py`: pydantic models shared by data generation, training, eval, and serving.
