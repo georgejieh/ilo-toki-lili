@@ -1,6 +1,6 @@
 # ilo toki lili
 
-> nimi lili li ken jo e sona suli.
+> sona suli li ken lon nimi lili.
 
 ilo toki lili is a small language-modeling project for Toki Pona. The question is simple: when a model learns a tiny language, does it behave differently if the words are tied to a small world it can see?
 
@@ -51,4 +51,4 @@ Large datasets, checkpoints, run logs, and generated artifacts are local-only by
 
 Phase 0 is beginning: repo structure, dependency policy, vocabulary, tokenizer, schemas, contamination checks, and the first reproducibility hooks.
 
-o kama pona. ilo ni li lili, taso wile sona ona li suli.
+> kama pona. ilo ni li lili, taso wile sona ona li suli.
