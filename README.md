@@ -71,4 +71,18 @@ uv run --extra dev python scripts/check.py
 
 The check runner invokes `ruff check .`, strict `mypy` over current Python files, and `pytest` when test files exist.
 
+Install the commit hooks:
+
+```bash
+uv run --extra dev pre-commit install
+```
+
+Run the hooks across the repo:
+
+```bash
+uv run --extra dev pre-commit run --all-files
+```
+
+The hooks run ruff, type checks, a pytest smoke pass, and a local secret scan.
+
 > kama pona. ilo ni li lili, taso wile sona ona li suli.

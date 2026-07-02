@@ -52,13 +52,22 @@ def run(command: Sequence[str]) -> int:
 
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Run the project baseline checks.")
+    parser.add_argument("--skip-lint", action="store_true", help="Skip ruff.")
+    parser.add_argument("--skip-types", action="store_true", help="Skip mypy.")
     parser.add_argument("--skip-tests", action="store_true", help="Run lint and types only.")
     args = parser.parse_args(argv)
 
-    commands: list[list[str]] = [["ruff", "check", "."]]
+    commands: list[list[str]] = []
+
+    if args.skip_lint:
+        print("Skipping ruff by request.", flush=True)
+    else:
+        commands.append(["ruff", "check", "."])
 
     python_files = discover_python_files()
-    if python_files:
+    if args.skip_types:
+        print("Skipping mypy by request.", flush=True)
+    elif python_files:
         commands.append(["mypy", *python_files])
     else:
         print("No Python files found; skipping mypy.", flush=True)
