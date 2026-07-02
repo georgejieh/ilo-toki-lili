@@ -85,4 +85,6 @@ uv run --extra dev pre-commit run --all-files
 
 The hooks run ruff, type checks, a pytest smoke pass, and a local secret scan.
 
+GitHub Actions runs the same locked baseline on pushes and pull requests to `main`.
+
 > kama pona. ilo ni li lili, taso wile sona ona li suli.
