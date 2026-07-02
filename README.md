@@ -32,7 +32,7 @@ The repo is organized around an auditable research pipeline:
 
 The grounding world is intentionally modest: simple shapes, sprites, movement, containment, transfer, eating, falling, breaking. The point is not photorealism. The point is whether words like `soweli`, `insa`, `pana`, or `pakala` become more than text patterns when the training setup gives them a world to live in.
 
-For community-written Toki Pona text, the repo keeps the map rather than the pile: source manifests, license notes, filters, hashes, and statistics are public, while raw third-party text stays local unless it is cleared for release.
+For community-written Toki Pona text, the repo keeps the map rather than the pile: source manifests, license notes, filters, hashes, attribution files, and statistics are public, while raw third-party text stays out of the repository. Releasable corpus items need per-item license checks first.
 
 ## Repository Map
 
@@ -42,7 +42,7 @@ For community-written Toki Pona text, the repo keeps the map rather than the pil
 - `train/`: training loops, curriculum scheduling, data loading, and reinforcement-learning code.
 - `eval/`: evaluation items, scoring, statistics, and report generation.
 - `serve/`: FastAPI service for model inference and scene rendering.
-- `web/`: public demo app.
+- `web/`: public demo app, including side-by-side testing and a display-only sitelen pona toggle.
 - `infra/`: cloud training and sync helpers.
 - `docs/`: research notes, project plan, and dated decisions.
 - `tests/`: test suite mirroring the source tree.

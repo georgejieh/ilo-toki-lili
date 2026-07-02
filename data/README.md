@@ -4,7 +4,9 @@ This directory owns the dataset contract: vocabulary, schemas, tokenizer, gramma
 
 Tracked files here should be small, auditable, and reproducible. Large or license-sensitive inputs stay local under ignored directories such as `raw/`, `external/`, `community/`, `non_synthetic/`, `third_party/`, `interim/`, `processed/`, `shards/`, `tiers/corpus_t4/`, `tiers/t4_raw/`, and `tiers/t4_processed/`.
 
-Community and other non-synthetic text is local-only by default. Public commits should include source lists, retrieval code, license/provenance notes, filtering rules, aggregate statistics, and reproducibility hashes, but not verbatim scraped articles, zines, competition entries, wiki pages, or corpus dumps unless a deliberate release review clears that exact material.
+Community and other non-synthetic text is local-only by default. Public commits should include source lists, retrieval code, license/provenance notes, attribution files, filtering rules, aggregate statistics, and reproducibility hashes, but not verbatim scraped articles, zines, competition entries, wiki pages, or corpus dumps.
+
+T4 ingestion should preserve per-item source URL or git commit, author when known, license signal, checksum, word count, retrieval time, and transformation notes. Prefer source repositories with item-level metadata, such as poki Lapo, over scraping presentation frontends such as `lipu.pona.la`.
 
 Planned modules:
 
