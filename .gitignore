@@ -49,8 +49,13 @@ data/raw/
 data/interim/
 data/processed/
 data/external/
+data/community/
+data/non_synthetic/
+data/third_party/
 data/shards/
 data/tiers/corpus_t4/
+data/tiers/t4_raw/
+data/tiers/t4_processed/
 checkpoints/
 artifacts/
 outputs/

@@ -32,6 +32,8 @@ The repo is organized around an auditable research pipeline:
 
 The grounding world is intentionally modest: simple shapes, sprites, movement, containment, transfer, eating, falling, breaking. The point is not photorealism. The point is whether words like `soweli`, `insa`, `pana`, or `pakala` become more than text patterns when the training setup gives them a world to live in.
 
+For community-written Toki Pona text, the repo keeps the map rather than the pile: source manifests, license notes, filters, hashes, and statistics are public, while raw third-party text stays local unless it is cleared for release.
+
 ## Repository Map
 
 - `configs/`: experiment configs and ablation settings.
@@ -45,7 +47,7 @@ The grounding world is intentionally modest: simple shapes, sprites, movement, c
 - `docs/`: research notes, project plan, and dated decisions.
 - `tests/`: test suite mirroring the source tree.
 
-Large datasets, checkpoints, run logs, and generated artifacts are local-only by default.
+Large datasets, checkpoints, run logs, generated artifacts, and third-party corpus text are local-only by default.
 
 ## Current Status
 

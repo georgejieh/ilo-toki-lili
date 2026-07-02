@@ -18,13 +18,14 @@ The project tests whether grounding and persistent state improve systematic beha
 - Result tables are generated from evaluation artifacts, not edited by hand.
 - Model-specific tuning budgets are capped equally and tracked through committed configs.
 - Public demo feedback is follow-up material only; it does not enter v1 training or frozen evaluation evidence.
+- Community and other non-synthetic Toki Pona text stays local-only by default. The public repo tracks source manifests, license/provenance notes, retrieval/filtering code, hashes, and aggregate statistics instead of raw third-party text.
 
 ## Phases
 
 0. Foundations: dependencies, vocabulary, tokenizer, schemas, CI, contamination checks.
 1. World engine: scene sampling, sprites, rendering, physics, review.
 2. Language engine: grammar, parser, generated descriptions, holdouts.
-3. Dataset v1: tiered corpus, shard writer, statistics, review.
+3. Dataset v1: tiered corpus, shard writer, licensed local-only community text policy, statistics, review.
 4. Model A: text baseline, training loop, tuning-budget decision, core evals.
 5. Model B: multimodal transformer, grounded evals.
 6. Model C: slots, recurrent state, latent prediction, full eval matrix.

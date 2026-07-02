@@ -11,3 +11,4 @@ Examples:
 - architecture changes
 - evaluation freezes
 - dataset release changes
+- community corpus provenance and redistribution policy
