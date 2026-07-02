@@ -53,4 +53,22 @@ Large datasets, checkpoints, run logs, generated artifacts, and third-party corp
 
 Phase 0 is beginning: repo structure, dependency policy, vocabulary, tokenizer, schemas, contamination checks, and the first reproducibility hooks.
 
+## Development Baseline
+
+The Python environment is managed with `uv` and locked in `uv.lock`.
+
+Set up the dev environment:
+
+```bash
+uv sync --extra dev
+```
+
+Run the baseline checks:
+
+```bash
+uv run --extra dev python scripts/check.py
+```
+
+The check runner invokes `ruff check .`, strict `mypy` over current Python files, and `pytest` when test files exist.
+
 > kama pona. ilo ni li lili, taso wile sona ona li suli.
