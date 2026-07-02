@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Project-local private workspace
+.agents/
+agents.MD
+agents.md
+AGENTS.md
+.codex/
+.aider*
+.cursor/
+.continue/
+
+# Data, model artifacts, and experiment outputs
+data/raw/
+data/interim/
+data/processed/
+data/external/
+checkpoints/
+artifacts/
+outputs/
+runs/
+wandb/
+mlruns/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
