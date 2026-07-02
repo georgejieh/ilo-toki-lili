@@ -6,6 +6,7 @@ Examples:
 
 - vocabulary freezes
 - holdout locks
+- equal tuning-budget caps
 - dependency additions
 - architecture changes
 - evaluation freezes

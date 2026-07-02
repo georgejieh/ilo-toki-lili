@@ -10,3 +10,6 @@ Planned views:
 - bootstrapped vocabulary demo
 - anomaly player
 - paper figures explorer
+- blind arena feedback
+
+Arena mode should randomize model labels, disclose anonymous feedback logging, and keep votes or flags firewalled from v1 training and frozen evaluation claims.

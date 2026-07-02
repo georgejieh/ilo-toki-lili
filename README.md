@@ -16,7 +16,7 @@ The project compares three matched small models:
 | `toki-lukin` | transformer with visual prefix | text plus rendered scenes | grounding with a standard architecture |
 | `toki-sona` | visual slots, recurrent world state, decoder | same grounded corpus | whether persistent state changes behavior |
 
-All three models use the same Toki Pona vocabulary, the same text stream, and roughly the same parameter budget. The main evaluations are not about sounding fluent. They are about compositional generalization, contradiction detection, temporal reasoning, counterfactuals, and whether a model can connect a word it has only read about to a visual concept later.
+All three models use the same Toki Pona vocabulary, the same text stream, roughly the same parameter budget, and the same capped room for tuning. The main evaluations are not about sounding fluent. They are about compositional generalization, contradiction detection, temporal reasoning, counterfactuals, robustness under visual domain shift, and whether a model can connect a word it has only read about to a visual concept later.
 
 ## How It Works
 
@@ -28,7 +28,7 @@ The repo is organized around an auditable research pipeline:
 4. Lock holdout families before training.
 5. Train the three model families from scratch.
 6. Score them with forced-choice and parser-checked evaluations.
-7. Release a web app where people can try the models side by side.
+7. Release a web app where people can try the models side by side, including a blind arena for post-publication feedback.
 
 The grounding world is intentionally modest: simple shapes, sprites, movement, containment, transfer, eating, falling, breaking. The point is not photorealism. The point is whether words like `soweli`, `insa`, `pana`, or `pakala` become more than text patterns when the training setup gives them a world to live in.
 
