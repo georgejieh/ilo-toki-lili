@@ -12,3 +12,4 @@ Examples:
 - evaluation freezes
 - dataset release changes
 - community corpus provenance and redistribution policy
+- public demo scope and product-surface boundaries

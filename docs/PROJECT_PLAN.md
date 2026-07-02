@@ -19,6 +19,7 @@ The project tests whether grounding and persistent state improve systematic beha
 - Model-specific tuning budgets are capped equally and tracked through committed configs.
 - Public demo feedback is follow-up material only; it does not enter v1 training or frozen evaluation evidence.
 - Community and other non-synthetic Toki Pona text is never committed raw. The public repo tracks source manifests, license/provenance notes, retrieval/filtering code, attribution files, hashes, and aggregate statistics instead of raw third-party text.
+- Any optimized standalone `toki-sona` assistant is a post-comparison product surface. It must not blur the frozen A/B/C evaluation, tuning budget, or headline claims.
 
 ## Phases
 
@@ -32,7 +33,7 @@ The project tests whether grounding and persistent state improve systematic beha
 7. Final science runs: frozen evals, seeds, ablations, confidence intervals, domain-shift robustness.
 8. Stage-2 reinforcement learning: grounded instruction following.
 9. Writeup and release: paper, dataset card, model cards, reproducible reports.
-10. Public demo: side-by-side model testing, scene explorer, anomaly playback, display-only sitelen pona, blind arena feedback.
+10. Public demo: Toki Pona background and learning resources, side-by-side model testing, scene explorer, anomaly playback, display-only sitelen pona, blind arena feedback, and optional standalone `toki-sona` assistant mode.
 
 ## Deliverables
 
@@ -40,4 +41,4 @@ The project tests whether grounding and persistent state improve systematic beha
 - Three trained model families plus ablations.
 - Evaluation suite and generated reports.
 - Public paper or technical report.
-- Web app for interactive comparison and post-publication arena feedback.
+- Web app for interactive comparison, Toki Pona learning/source context, post-publication arena feedback, and optional standalone `toki-sona` assistant mode if Model C is strong enough.

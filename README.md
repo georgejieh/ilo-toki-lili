@@ -28,11 +28,13 @@ The repo is organized around an auditable research pipeline:
 4. Lock holdout families before training.
 5. Train the three model families from scratch.
 6. Score them with forced-choice and parser-checked evaluations.
-7. Release a web app where people can try the models side by side, including a blind arena for post-publication feedback.
+7. Release a web app where people can try the models side by side, read about Toki Pona and its sources, and leave blind arena feedback for post-publication follow-up.
 
 The grounding world is intentionally modest: simple shapes, sprites, movement, containment, transfer, eating, falling, breaking. The point is not photorealism. The point is whether words like `soweli`, `insa`, `pana`, or `pakala` become more than text patterns when the training setup gives them a world to live in.
 
 For community-written Toki Pona text, the repo keeps the map rather than the pile: source manifests, license notes, filters, hashes, attribution files, and statistics are public, while raw third-party text stays out of the repository. Releasable corpus items need per-item license checks first.
+
+If `toki-sona` proves useful beyond the comparison, the demo may also grow a separate Toki Pona-only assistant surface: not part of the headline experiment, just the little grounded model tuned hard enough to feel good to use.
 
 ## Repository Map
 
@@ -42,7 +44,7 @@ For community-written Toki Pona text, the repo keeps the map rather than the pil
 - `train/`: training loops, curriculum scheduling, data loading, and reinforcement-learning code.
 - `eval/`: evaluation items, scoring, statistics, and report generation.
 - `serve/`: FastAPI service for model inference and scene rendering.
-- `web/`: public demo app, including side-by-side testing and a display-only sitelen pona toggle.
+- `web/`: public demo app, including Toki Pona resources, side-by-side testing, a display-only sitelen pona toggle, and possible standalone `toki-sona` assistant mode.
 - `infra/`: cloud training and sync helpers.
 - `docs/`: research notes, project plan, and dated decisions.
 - `tests/`: test suite mirroring the source tree.
