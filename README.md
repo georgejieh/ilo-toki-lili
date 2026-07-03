@@ -53,7 +53,7 @@ Large datasets, checkpoints, run logs, generated artifacts, and third-party corp
 
 ## Current Status
 
-Phase 0 is beginning: repo structure, dependency policy, vocabulary, tokenizer, schemas, contamination checks, and the first reproducibility hooks.
+Phase 0 is in progress. The repo structure, locked Python baseline, local hooks, CI, module hygiene, Linku source policy, compact vocabulary snapshot, and draft `data/vocab.json` are in place. Next up: freeze the vocabulary, then build the tokenizer, schemas, and contamination checks.
 
 ## Development Baseline
 

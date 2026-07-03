@@ -12,4 +12,5 @@ Examples:
 - evaluation freezes
 - dataset release changes
 - community corpus provenance and redistribution policy
+- reasoning-model and scratchpad scope
 - public demo scope and product-surface boundaries

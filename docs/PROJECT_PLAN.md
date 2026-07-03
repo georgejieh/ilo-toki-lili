@@ -19,6 +19,7 @@ The project tests whether grounding and persistent state improve systematic beha
 - Model-specific tuning budgets are capped equally and tracked through committed configs.
 - Public demo feedback is follow-up material only; it does not enter v1 training or frozen evaluation evidence.
 - Community and other non-synthetic Toki Pona text is never committed raw. The public repo tracks source manifests, license/provenance notes, retrieval/filtering code, attribution files, hashes, and aggregate statistics instead of raw third-party text.
+- Explicit chain-of-thought or scratchpad training is out of scope for the v1 comparison. Model C's extra computation is latent state and slot updates, while any verbal scratchpad experiments belong to later follow-up work.
 - Any optimized standalone `toki-sona` assistant is a post-comparison product surface. It must not blur the frozen A/B/C evaluation, tuning budget, or headline claims.
 
 ## Phases
