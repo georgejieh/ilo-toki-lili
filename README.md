@@ -53,7 +53,7 @@ Large datasets, checkpoints, run logs, generated artifacts, and third-party corp
 
 ## Current Status
 
-Phase 0 is in progress. The repo structure, locked Python baseline, local hooks, CI, module hygiene, Linku source policy, compact vocabulary snapshot, and frozen `data/vocab.json` are in place. Next up: build the tokenizer, schemas, and contamination checks.
+Phase 0 is in progress. The repo structure, locked Python baseline, local hooks, CI, module hygiene, Linku source policy, frozen `data/vocab.json`, and closed-vocabulary tokenizer are in place. Next up: pydantic schemas, contamination checks, config hashing, and the remaining reproducibility guardrails.
 
 ## Development Baseline
 
