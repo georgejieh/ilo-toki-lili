@@ -48,10 +48,14 @@ def scan_path(path: Path) -> list[Finding]:
 
     for line_number, line in enumerate(text.splitlines(), start=1):
         for label, pattern in SECRET_PATTERNS.items():
-            if pattern.search(line):
+            if pattern.search(line) and not is_allowed_false_positive(label, line):
                 findings.append(Finding(path=path, line_number=line_number, label=label))
 
     return findings
+
+
+def is_allowed_false_positive(label: str, line: str) -> bool:
+    return label == "wandb api key" and "commit" in line.lower()
 
 
 def main(argv: list[str] | None = None) -> int:

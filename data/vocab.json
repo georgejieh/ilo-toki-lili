@@ -1,0 +1,1416 @@
+{
+  "language": "tok",
+  "punctuation_tokens": [
+    ".",
+    ",",
+    "?",
+    "!",
+    ":",
+    "\""
+  ],
+  "reserved_tokens": [
+    "<reserved_0>",
+    "<reserved_1>"
+  ],
+  "schema_version": 1,
+  "selection": {
+    "book_values": [
+      "pu",
+      "ku suli"
+    ],
+    "exclude_deprecated": true,
+    "exclude_parent_entries": true
+  },
+  "source": {
+    "retrieved_at": "2026-07-02",
+    "snapshot_path": "data/linku_source_snapshot.json",
+    "snapshot_sha256": "c2c3c57f6c693e4fca7c2040c7eba3ee8fd2c443800cd72d4560b7933c479d1c",
+    "upstream_commit": "d73c4921c63d239d9f96972356c2fcf86a767b1c",
+    "upstream_license": "CC-BY-SA-4.0",
+    "upstream_repository": "https://github.com/lipu-linku/sona"
+  },
+  "special_tokens": [
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<unk>",
+    "<name>",
+    "<img>",
+    "<sep>"
+  ],
+  "status": "draft",
+  "token_count": 152,
+  "word_count": 137,
+  "words": [
+    {
+      "book": "pu",
+      "linku_id": "a",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/a.toml",
+      "source_sha256": "67384e22ec1aca89ab86a3685cd62baf2a7ab28d268797bae88420f4aa364554",
+      "token_id": 13,
+      "word": "a"
+    },
+    {
+      "book": "pu",
+      "linku_id": "akesi",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/akesi.toml",
+      "source_sha256": "1216af3c1195ead48f180b36989ae569befc00be45a986f172ae3099f1e4e6d3",
+      "token_id": 14,
+      "word": "akesi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ala",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/ala.toml",
+      "source_sha256": "034f5be9723cf3c03b5df967388f7d82184eaf9d39589f92fd331a9b66c0af16",
+      "token_id": 15,
+      "word": "ala"
+    },
+    {
+      "book": "pu",
+      "linku_id": "alasa",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/alasa.toml",
+      "source_sha256": "24b4b9bf9a379fcb7003bbac2217db830efa081c34b1ad973ac6a09fe8d07640",
+      "token_id": 16,
+      "word": "alasa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ale",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/ale.toml",
+      "source_sha256": "5d7db7877a419bcdee56609bc6f32c9f2bc8172b610361a7aa6a61979a38c159",
+      "token_id": 17,
+      "word": "ale"
+    },
+    {
+      "book": "pu",
+      "linku_id": "anpa",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/anpa.toml",
+      "source_sha256": "d89981eceb84813c77d58c704619787a1bd872a7a2812ec633c9e07fa36ca9ef",
+      "token_id": 18,
+      "word": "anpa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ante",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/ante.toml",
+      "source_sha256": "50eea23a0eaa41fd5c3483f08db0e33cb14f3d34b9d3bf71523cbba56c98dbb1",
+      "token_id": 19,
+      "word": "ante"
+    },
+    {
+      "book": "pu",
+      "linku_id": "anu",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/anu.toml",
+      "source_sha256": "7c32deeeede4779d83fcaf94b3cf9e2cce3d721f65948b52472cd3270d3cac28",
+      "token_id": 20,
+      "word": "anu"
+    },
+    {
+      "book": "pu",
+      "linku_id": "awen",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/awen.toml",
+      "source_sha256": "672280d27438bfc1faddfb787cbca80a8e22df426452c2b6b35b0a1aa4d85051",
+      "token_id": 21,
+      "word": "awen"
+    },
+    {
+      "book": "pu",
+      "linku_id": "e",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/e.toml",
+      "source_sha256": "f8ae4892db164b0a70ec7960a3bb545ca9c00516ca15acdeb0024bffc3ba0950",
+      "token_id": 22,
+      "word": "e"
+    },
+    {
+      "book": "pu",
+      "linku_id": "en",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/en.toml",
+      "source_sha256": "c3faff1f0e2d1f6c7486c2a5859f58b855ba51b295117f2a7596c758393457d0",
+      "token_id": 23,
+      "word": "en"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "epiku",
+      "linku_usage_category": "uncommon",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/epiku.toml",
+      "source_sha256": "e5a4db67cd192b161fe1f9be0956c3c12a989b92d01882d7fdf84a9b5d75c32d",
+      "token_id": 24,
+      "word": "epiku"
+    },
+    {
+      "book": "pu",
+      "linku_id": "esun",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/esun.toml",
+      "source_sha256": "d85902be2e7f4d7601fc6d03f54c759cb82398091cce719bfa4773136bdce500",
+      "token_id": 25,
+      "word": "esun"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ijo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/ijo.toml",
+      "source_sha256": "887757aafaef984256f7eb38f9cf37d8d08790e1e0f9c5e10b1fa248984622dc",
+      "token_id": 26,
+      "word": "ijo"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ike",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/ike.toml",
+      "source_sha256": "ff6ef868b682d37449f78172e62ac21ff13c8caf823c630271f4b70ba8c800ea",
+      "token_id": 27,
+      "word": "ike"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ilo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/ilo.toml",
+      "source_sha256": "ce4575201d10b8aae7e8a4d7ed3805232ba045366dffe658f99b1f3bd0cb9ec1",
+      "token_id": 28,
+      "word": "ilo"
+    },
+    {
+      "book": "pu",
+      "linku_id": "insa",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/insa.toml",
+      "source_sha256": "c98ebc70c949559497195edf97f2e2496dfd3355f38d5c408f186ea98607c58f",
+      "token_id": 29,
+      "word": "insa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "jaki",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/jaki.toml",
+      "source_sha256": "9229b09b64ee9153a1df605f61d4e4822788cd3238b9adc29f6a0a376b1ac6db",
+      "token_id": 30,
+      "word": "jaki"
+    },
+    {
+      "book": "pu",
+      "linku_id": "jan",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/jan.toml",
+      "source_sha256": "98eb83431dd039b17e8b3ff98add84495a5e0f3e647fd052fddd1504b54bf069",
+      "token_id": 31,
+      "word": "jan"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "jasima",
+      "linku_usage_category": "uncommon",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/jasima.toml",
+      "source_sha256": "b59a998af6a5d294a53f1f066f8d6c2e22cfa1ce7661151edf922baabbdec56b",
+      "token_id": 32,
+      "word": "jasima"
+    },
+    {
+      "book": "pu",
+      "linku_id": "jelo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/jelo.toml",
+      "source_sha256": "e9acb21f213180d862494d0b240db36f85f2b4f9de51a567de7fec45155c5f53",
+      "token_id": 33,
+      "word": "jelo"
+    },
+    {
+      "book": "pu",
+      "linku_id": "jo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/jo.toml",
+      "source_sha256": "ff6d283f124fe67bab2e2ac461dcf3df0f8987cad9255dcfd8932d8d747917de",
+      "token_id": 34,
+      "word": "jo"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kala",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/kala.toml",
+      "source_sha256": "c9bd2962559050b32b98f812b37da58ccc85342557d6c99ac7bca8abce7c818d",
+      "token_id": 35,
+      "word": "kala"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kalama",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/kalama.toml",
+      "source_sha256": "23d7f9b21f74fd301f90a3f0644f4cd0fa0ed98c156b2c602b6eb4ba26a002e0",
+      "token_id": 36,
+      "word": "kalama"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kama",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/kama.toml",
+      "source_sha256": "b2cdc9b56fb50e6e2288434dec08c3263caaab20d089fed78ecc0b3199903e04",
+      "token_id": 37,
+      "word": "kama"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kasi",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/kasi.toml",
+      "source_sha256": "0de03bdb81deedebe6a146591c89b6451e0517ddb8e1a9351de84cdd9e9dc08f",
+      "token_id": 38,
+      "word": "kasi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ken",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/ken.toml",
+      "source_sha256": "030f2c8b6613c8ac79d02b3b22b8ec37d8f13a3b1b8591c3dd2a6467aeb8373b",
+      "token_id": 39,
+      "word": "ken"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kepeken",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/kepeken.toml",
+      "source_sha256": "796950f1fbc7fb03ce2d77e4ed02afa4d47e7f04ec8ab6c1943584fbf4c56193",
+      "token_id": 40,
+      "word": "kepeken"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "kijetesantakalu",
+      "linku_usage_category": "common",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/kijetesantakalu.toml",
+      "source_sha256": "04a267348ebba9f801c90919525a445ec897606fcacbca9a125810bf2abbb636",
+      "token_id": 41,
+      "word": "kijetesantakalu"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kili",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/kili.toml",
+      "source_sha256": "af26c0b12cfd3976aedd5f636a8ed9176ab083ea1f919d6681aa36c313766a00",
+      "token_id": 42,
+      "word": "kili"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "kin",
+      "linku_usage_category": "common",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/kin.toml",
+      "source_sha256": "df0799d8c9a33004dd56a596942c8c993249bba488b3343530dd144c5f5a9561",
+      "token_id": 43,
+      "word": "kin"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "kipisi",
+      "linku_usage_category": "common",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/kipisi.toml",
+      "source_sha256": "34e5656d7b684130ef5420f2a2e8dca6cadacdbf930f1d415172390b6107f7b5",
+      "token_id": 44,
+      "word": "kipisi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kiwen",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/kiwen.toml",
+      "source_sha256": "4101de1a0da582bc654d008a85cb909c7ad98ff75bac118162ac738c5f022847",
+      "token_id": 45,
+      "word": "kiwen"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ko",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/ko.toml",
+      "source_sha256": "869c483400e815d0327d24c8ae1bc87410b8c33eb01ce2ee7fb457bcee654e15",
+      "token_id": 46,
+      "word": "ko"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "kokosila",
+      "linku_usage_category": "obscure",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/kokosila.toml",
+      "source_sha256": "2944db4b238322586783aec75c2cba25602fe4516c34935909b3617ee69267a5",
+      "token_id": 47,
+      "word": "kokosila"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kon",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/kon.toml",
+      "source_sha256": "50468e7a3579cecd7f87e659c6a56c624d048a61890c1fbc4a5a66e5f6cce653",
+      "token_id": 48,
+      "word": "kon"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "ku",
+      "linku_usage_category": "common",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/ku.toml",
+      "source_sha256": "a6f6c957a355f1d78d69bb402fd78e75889ffdfa1e1f121fd74401bd6122cd3d",
+      "token_id": 49,
+      "word": "ku"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kule",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/kule.toml",
+      "source_sha256": "b79228d68d7d902b9b758fe265dc829c106213f0fde80eede159749b1774dd5b",
+      "token_id": 50,
+      "word": "kule"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kulupu",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/kulupu.toml",
+      "source_sha256": "bc4c44901ef26428339a86b60d32480dc479c9c4253b9b5fae5a313101aec34f",
+      "token_id": 51,
+      "word": "kulupu"
+    },
+    {
+      "book": "pu",
+      "linku_id": "kute",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/kute.toml",
+      "source_sha256": "0a2b46b0d8c4dd95e97c34e7c108af2237de1ce54de40b5f4a93ba65aa579aac",
+      "token_id": 52,
+      "word": "kute"
+    },
+    {
+      "book": "pu",
+      "linku_id": "la",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/la.toml",
+      "source_sha256": "dce641f13ed82c1f8ad465899abda52e1fd5ba45fdc0cef6e309c65fcaeae5f3",
+      "token_id": 53,
+      "word": "la"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "lanpan",
+      "linku_usage_category": "uncommon",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/lanpan.toml",
+      "source_sha256": "46cfba04d67a210d73348aef76d9410c1d00403a4182c814dd526a8c8c04966a",
+      "token_id": 54,
+      "word": "lanpan"
+    },
+    {
+      "book": "pu",
+      "linku_id": "lape",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/lape.toml",
+      "source_sha256": "308ac14c4f42ba33bae2c2245a11d7a2e68764d75406646ba807b80cf20d0c81",
+      "token_id": 55,
+      "word": "lape"
+    },
+    {
+      "book": "pu",
+      "linku_id": "laso",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/laso.toml",
+      "source_sha256": "a1a29f3119fc1fc8238e24616e7a3a4087777da374442b03994ecb1f23fbf4f2",
+      "token_id": 56,
+      "word": "laso"
+    },
+    {
+      "book": "pu",
+      "linku_id": "lawa",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/lawa.toml",
+      "source_sha256": "2d3c151198122a14b3fea1d22228d8c14a5b8f329e85bf158d4314102fc54385",
+      "token_id": 57,
+      "word": "lawa"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "leko",
+      "linku_usage_category": "common",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/leko.toml",
+      "source_sha256": "007cf40d05022d638bbfe824df8949694a26e01bdcc9a93069d6707a30802279",
+      "token_id": 58,
+      "word": "leko"
+    },
+    {
+      "book": "pu",
+      "linku_id": "len",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/len.toml",
+      "source_sha256": "c10991baca363fe6fdcb02e4065d07c3c8f4f5ee81bf6a43c59d6f180d9a09e0",
+      "token_id": 59,
+      "word": "len"
+    },
+    {
+      "book": "pu",
+      "linku_id": "lete",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/lete.toml",
+      "source_sha256": "c01d88bb7af265644f9c5e469ccc0ef34653b4d05f5af5f079229dc46a716ab2",
+      "token_id": 60,
+      "word": "lete"
+    },
+    {
+      "book": "pu",
+      "linku_id": "li",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/li.toml",
+      "source_sha256": "9b42a1aa94920acd54c7051ef0ec1fc42fb0cae90770a3849e9cbb76e77c73e0",
+      "token_id": 61,
+      "word": "li"
+    },
+    {
+      "book": "pu",
+      "linku_id": "lili",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/lili.toml",
+      "source_sha256": "b49618d9a3342a3915c0af8621e33c4f544c723dfc4060481ad43ef426fbcc92",
+      "token_id": 62,
+      "word": "lili"
+    },
+    {
+      "book": "pu",
+      "linku_id": "linja",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/linja.toml",
+      "source_sha256": "6d13269c18a82efc2fc854dfac6b0c7b74cd35f8f377923dd9b28c9ed087b31f",
+      "token_id": 63,
+      "word": "linja"
+    },
+    {
+      "book": "pu",
+      "linku_id": "lipu",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/lipu.toml",
+      "source_sha256": "584977e9d2e35898349e93a5bf6ae6ee6d88c9aa982e6bc719b24b6fe4f67820",
+      "token_id": 64,
+      "word": "lipu"
+    },
+    {
+      "book": "pu",
+      "linku_id": "loje",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/loje.toml",
+      "source_sha256": "f0ad9bb0a48a9616e260f62f38dd2d5facec445593790291015f32accfc8c8c2",
+      "token_id": 65,
+      "word": "loje"
+    },
+    {
+      "book": "pu",
+      "linku_id": "lon",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/lon.toml",
+      "source_sha256": "bfe3ab84c9b8c0f5b47cc8b1f89ffcd051a852896471a7f96cecdb5f80e94102",
+      "token_id": 66,
+      "word": "lon"
+    },
+    {
+      "book": "pu",
+      "linku_id": "luka",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/luka.toml",
+      "source_sha256": "2f35caea6a585805783a57b5d48687b3bcefaadd2b7466f0e68e5511400c054a",
+      "token_id": 67,
+      "word": "luka"
+    },
+    {
+      "book": "pu",
+      "linku_id": "lukin",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/lukin.toml",
+      "source_sha256": "ee499de103569bf84a728c4bb5d14c1483fca6cfc0f1d57203708ba0a40b75ee",
+      "token_id": 68,
+      "word": "lukin"
+    },
+    {
+      "book": "pu",
+      "linku_id": "lupa",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/lupa.toml",
+      "source_sha256": "d7c21bee8705ff4c0bebab38115081ef09f66a4bee5635d9db9012297769a276",
+      "token_id": 69,
+      "word": "lupa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ma",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/ma.toml",
+      "source_sha256": "4f3e3a800c9aae9e6e97a25d639045f5852af4d6a4920ad78d29fd1eaec284ff",
+      "token_id": 70,
+      "word": "ma"
+    },
+    {
+      "book": "pu",
+      "linku_id": "mama",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/mama.toml",
+      "source_sha256": "960cb9a155a12b0ee9f126330a2d51b0a310fff020694a9a61a1ea3b2b8e86f2",
+      "token_id": 71,
+      "word": "mama"
+    },
+    {
+      "book": "pu",
+      "linku_id": "mani",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/mani.toml",
+      "source_sha256": "3228d5eecfb580f8b07a584aea3c75925df25af6db6de570abea0df6c862f96d",
+      "token_id": 72,
+      "word": "mani"
+    },
+    {
+      "book": "pu",
+      "linku_id": "meli",
+      "linku_usage_category": "common",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/meli.toml",
+      "source_sha256": "5307ba6017a3fbbb0330e58ed7fdb0e9de84c859f92e650ff42e698fa3b6bc87",
+      "token_id": 73,
+      "word": "meli"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "meso",
+      "linku_usage_category": "uncommon",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/meso.toml",
+      "source_sha256": "94772631fb8257218b6247e8f4448a38cd73f334bd4f915ceaac6fa16e829314",
+      "token_id": 74,
+      "word": "meso"
+    },
+    {
+      "book": "pu",
+      "linku_id": "mi",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/mi.toml",
+      "source_sha256": "6037bf7f1073afb1a5687ccf8fde855ec65675e5e4eb2e3072a97b09bea70002",
+      "token_id": 75,
+      "word": "mi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "mije",
+      "linku_usage_category": "common",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/mije.toml",
+      "source_sha256": "a86be99518d69a9ab3417fdf4cb3e9133ce6c8c9d11199e1af572acbf20b369f",
+      "token_id": 76,
+      "word": "mije"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "misikeke",
+      "linku_usage_category": "common",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/misikeke.toml",
+      "source_sha256": "1fbb04512dfff151093ad786e127ca2d9cfb9aa55bf3ffa4c1fbefec828bae21",
+      "token_id": 77,
+      "word": "misikeke"
+    },
+    {
+      "book": "pu",
+      "linku_id": "moku",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/moku.toml",
+      "source_sha256": "a809e5caace2368b3cea54b9ea39ebbe7d9cde5692d3a280ce7f839b903aedda",
+      "token_id": 78,
+      "word": "moku"
+    },
+    {
+      "book": "pu",
+      "linku_id": "moli",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/moli.toml",
+      "source_sha256": "04a4a6c8c97b0db4b349a53ca5d53b543371c121f9cf138ce0025f1267fc9812",
+      "token_id": 79,
+      "word": "moli"
+    },
+    {
+      "book": "pu",
+      "linku_id": "monsi",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/monsi.toml",
+      "source_sha256": "26cc4fad6763978ccc3fe3c4ee958407018fae9281c9fea4198821afdddb7382",
+      "token_id": 80,
+      "word": "monsi"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "monsuta",
+      "linku_usage_category": "common",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/monsuta.toml",
+      "source_sha256": "a2a762731eacb92f05571b94546cdd2288036c2ac99d9c0115ec9cf3b6b4dc2d",
+      "token_id": 81,
+      "word": "monsuta"
+    },
+    {
+      "book": "pu",
+      "linku_id": "mu",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/mu.toml",
+      "source_sha256": "142f979f76876884e8a025ff131b86f55985eebc8ce965699c394113d7ff5ce1",
+      "token_id": 82,
+      "word": "mu"
+    },
+    {
+      "book": "pu",
+      "linku_id": "mun",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/mun.toml",
+      "source_sha256": "8cc34d2025e1217b2eeeedbe2cfe5220afbd0bb00fd31018bdb72b3cf201660c",
+      "token_id": 83,
+      "word": "mun"
+    },
+    {
+      "book": "pu",
+      "linku_id": "musi",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/musi.toml",
+      "source_sha256": "212ad6a3eef2a745d21569ce693fae51faf7eac8772e8d381be182aed200e00c",
+      "token_id": 84,
+      "word": "musi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "mute",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/mute.toml",
+      "source_sha256": "6b30ae3e61ec7d5c4267fcca345c81ee805cf4479cc4a4d2c9b1f03c0f9f6d1d",
+      "token_id": 85,
+      "word": "mute"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "n",
+      "linku_usage_category": "common",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/n.toml",
+      "source_sha256": "6510352e1902c702ec6bb8c4853e5fbb93eefa0bb2962eab0e0c9d01bb939961",
+      "token_id": 86,
+      "word": "n"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "namako",
+      "linku_usage_category": "common",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/namako.toml",
+      "source_sha256": "62cc9c8fe467dec1fceac8bc6ae3c281e23b891575bb953f012caf8b4e408855",
+      "token_id": 87,
+      "word": "namako"
+    },
+    {
+      "book": "pu",
+      "linku_id": "nanpa",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/nanpa.toml",
+      "source_sha256": "353799c60a2eb694ee602a6010716704827df42566c785250969ad0bb241f253",
+      "token_id": 88,
+      "word": "nanpa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "nasa",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/nasa.toml",
+      "source_sha256": "45dad15b344e8fb99c7def09e5c8a1bae5a02ac97ad190056a18e2a10ee19e1b",
+      "token_id": 89,
+      "word": "nasa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "nasin",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/nasin.toml",
+      "source_sha256": "33bda212ef334b6aa0b9d5708e52e7991eeac4f16bdc9709d12fc28bd7d4bdea",
+      "token_id": 90,
+      "word": "nasin"
+    },
+    {
+      "book": "pu",
+      "linku_id": "nena",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/nena.toml",
+      "source_sha256": "1c4b7c2c2d0020feebc714d5092a6b1cdb352ef2c8cb6242dde451e90044ee68",
+      "token_id": 91,
+      "word": "nena"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ni",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/ni.toml",
+      "source_sha256": "9e77770f7b260efe082ee6eae9c9843759c32d221532cf7f8c26324ebf3c35c8",
+      "token_id": 92,
+      "word": "ni"
+    },
+    {
+      "book": "pu",
+      "linku_id": "nimi",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/nimi.toml",
+      "source_sha256": "56f63e32a8e7f237377b977e8fb387e13d3ff8517ded60131fdeb1af934488fa",
+      "token_id": 93,
+      "word": "nimi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "noka",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/noka.toml",
+      "source_sha256": "c6e1883c5cb80502ceb967c358e6e60120b2594ccc5975085b54556d0e5fc19c",
+      "token_id": 94,
+      "word": "noka"
+    },
+    {
+      "book": "pu",
+      "linku_id": "o",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/o.toml",
+      "source_sha256": "83134a44c1b19896c91ddc6d93f909075064c4495b637482e72fc945644767bc",
+      "token_id": 95,
+      "word": "o"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "oko",
+      "linku_usage_category": "uncommon",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/oko.toml",
+      "source_sha256": "7b83514384ca5ecbf7f06cf7778757a402e41e305ca426a3ade6dca60b5567ae",
+      "token_id": 96,
+      "word": "oko"
+    },
+    {
+      "book": "pu",
+      "linku_id": "olin",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/olin.toml",
+      "source_sha256": "3355fe857dc4fc36ad302cd8bcf2cafba20b914ced01a05a300383432160e7b7",
+      "token_id": 97,
+      "word": "olin"
+    },
+    {
+      "book": "pu",
+      "linku_id": "ona",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/ona.toml",
+      "source_sha256": "6739ae33f773011f58304d5ba7c0df5f8adb9f4c20b15215c96f79ca240ac0c0",
+      "token_id": 98,
+      "word": "ona"
+    },
+    {
+      "book": "pu",
+      "linku_id": "open",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/open.toml",
+      "source_sha256": "947f5c894bf5e5c1207fd33986715f4c73e156734410aa10d600cc2f2ccee51d",
+      "token_id": 99,
+      "word": "open"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pakala",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/pakala.toml",
+      "source_sha256": "01a721b6580f01a0cef1b4cbb934b61b25661db448fe42316f2d2b3633f4766d",
+      "token_id": 100,
+      "word": "pakala"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pali",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/pali.toml",
+      "source_sha256": "c23ec7d364c41c497455d42fde84121e362dfc343d7af672ec688f9d3602b787",
+      "token_id": 101,
+      "word": "pali"
+    },
+    {
+      "book": "pu",
+      "linku_id": "palisa",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/palisa.toml",
+      "source_sha256": "5c071fd97b923c6de12fc8aead8b9c2b6a9cfc21ea614af726e41b2bf86db694",
+      "token_id": 102,
+      "word": "palisa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pan",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/pan.toml",
+      "source_sha256": "3d10b3be67b55294e3f5162af7f782993320ab31418e43f83b19c16bdca31a80",
+      "token_id": 103,
+      "word": "pan"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pana",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/pana.toml",
+      "source_sha256": "4f1b00be9cd7fc27350d1aa850afcde3b550aa699c49ac2ec8b05903b8b6c14d",
+      "token_id": 104,
+      "word": "pana"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pi",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/pi.toml",
+      "source_sha256": "ad9234bf8c4da5c90d23bb2dac01b5e59eb18c09c75de258e08d7f7995adc77a",
+      "token_id": 105,
+      "word": "pi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pilin",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/pilin.toml",
+      "source_sha256": "7c91f134a484cb30df104cc9301aa69f79776029ce1937dce47f19192550f1ce",
+      "token_id": 106,
+      "word": "pilin"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pimeja",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/pimeja.toml",
+      "source_sha256": "1f24f50f1b3f029e9d5e66e92216d4435141c37c33cf5f4d70d80d4873b9d947",
+      "token_id": 107,
+      "word": "pimeja"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pini",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/pini.toml",
+      "source_sha256": "5c99b95ac05c8f789beaee54fa4760646bd94f03d5211ae58de2533275ce878b",
+      "token_id": 108,
+      "word": "pini"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pipi",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/pipi.toml",
+      "source_sha256": "2d409480cad391b1b44fd42022d6c6d077bf6e9c43e27aaf6722deb22621f05e",
+      "token_id": 109,
+      "word": "pipi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "poka",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/poka.toml",
+      "source_sha256": "ce42cb0522e9d2e2a6de77dce00121089b4d7abb60d8f266b7dd4f5092775831",
+      "token_id": 110,
+      "word": "poka"
+    },
+    {
+      "book": "pu",
+      "linku_id": "poki",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/poki.toml",
+      "source_sha256": "c932507f7327e12c22f3a395c277897a61596cc4ca9a83e0f2a4f4543d36eeeb",
+      "token_id": 111,
+      "word": "poki"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pona",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/pona.toml",
+      "source_sha256": "c9cd0b641f344aa39416989209d3231fcbdf12cd6654fa58a958e8a42e367b50",
+      "token_id": 112,
+      "word": "pona"
+    },
+    {
+      "book": "pu",
+      "linku_id": "pu",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/pu.toml",
+      "source_sha256": "868b80ecdb7b30bad2bc9cc3696412688acab79990f1497b8c6c53e507cb9937",
+      "token_id": 113,
+      "word": "pu"
+    },
+    {
+      "book": "pu",
+      "linku_id": "sama",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/sama.toml",
+      "source_sha256": "bdf5490a05c76eb119fbb9362ca69b9d75236579b6d48150c918a71af40085db",
+      "token_id": 114,
+      "word": "sama"
+    },
+    {
+      "book": "pu",
+      "linku_id": "seli",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/seli.toml",
+      "source_sha256": "d45138f58ae80f651ec0c907adc4eadbac637396a0f18944f4f2817fac66e737",
+      "token_id": 115,
+      "word": "seli"
+    },
+    {
+      "book": "pu",
+      "linku_id": "selo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/selo.toml",
+      "source_sha256": "39f31d9c84248a1d8bea972569f0cec040797361d47401b1159725a129d505eb",
+      "token_id": 116,
+      "word": "selo"
+    },
+    {
+      "book": "pu",
+      "linku_id": "seme",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/seme.toml",
+      "source_sha256": "56a8c3d2abb01a9deeb181f40b7b5ac04f1ba66a6409da167c6acbf77b8d6aad",
+      "token_id": 117,
+      "word": "seme"
+    },
+    {
+      "book": "pu",
+      "linku_id": "sewi",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/sewi.toml",
+      "source_sha256": "17c03e7ea9ba91add063b11ab942beeb8f324ce9edc65d630d790e36a7637c9a",
+      "token_id": 118,
+      "word": "sewi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "sijelo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/sijelo.toml",
+      "source_sha256": "7756a22a60744d8176edd65cd13000f9c7243155eda7c9c42e4af96795ee23d9",
+      "token_id": 119,
+      "word": "sijelo"
+    },
+    {
+      "book": "pu",
+      "linku_id": "sike",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/sike.toml",
+      "source_sha256": "5569eaad4c3a9d401bb1f6dc51747d47b07b6f10658f454a75400df42ca38031",
+      "token_id": 120,
+      "word": "sike"
+    },
+    {
+      "book": "pu",
+      "linku_id": "sin",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/sin.toml",
+      "source_sha256": "cae5e299351918a4723197301d98a4aa0abb3e9bf8f651dc3d8229c58d729b38",
+      "token_id": 121,
+      "word": "sin"
+    },
+    {
+      "book": "pu",
+      "linku_id": "sina",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/sina.toml",
+      "source_sha256": "bf9541ac81614e9c36f1a7bf98da42618a5850645b4c07de76bd886d85b04a5b",
+      "token_id": 122,
+      "word": "sina"
+    },
+    {
+      "book": "pu",
+      "linku_id": "sinpin",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/sinpin.toml",
+      "source_sha256": "d77b1a57d835e638efdcd3c27c7ab716f7060823342dc8dfc43a21b0d4e97e04",
+      "token_id": 123,
+      "word": "sinpin"
+    },
+    {
+      "book": "pu",
+      "linku_id": "sitelen",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/sitelen.toml",
+      "source_sha256": "7cddf88d30160c5cb83d81c4d3cf00119534af6ad14742d81a5869af5af5dd5d",
+      "token_id": 124,
+      "word": "sitelen"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "soko",
+      "linku_usage_category": "common",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/soko.toml",
+      "source_sha256": "63e957519a4776684552ad940b50705b4fb7240f03388783b17ae25f9c1e4320",
+      "token_id": 125,
+      "word": "soko"
+    },
+    {
+      "book": "pu",
+      "linku_id": "sona",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/sona.toml",
+      "source_sha256": "5df495e9828a62e4a98aa49b2e1d957e1899137e125931cd2461557c9a82fa32",
+      "token_id": 126,
+      "word": "sona"
+    },
+    {
+      "book": "pu",
+      "linku_id": "soweli",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/soweli.toml",
+      "source_sha256": "469b3881e19a29fa4e7fe3252ca77eff7459aba7132404276c23140531e2a707",
+      "token_id": 127,
+      "word": "soweli"
+    },
+    {
+      "book": "pu",
+      "linku_id": "suli",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/suli.toml",
+      "source_sha256": "0610c9066ff1c68ce38fb025a0a19eb021c89bf1f84a85439c9cdf42149ec972",
+      "token_id": 128,
+      "word": "suli"
+    },
+    {
+      "book": "pu",
+      "linku_id": "suno",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/suno.toml",
+      "source_sha256": "c9b37295dd13f14de07a8b6ea82dcfe37c8d84b5c780c911c8043d153437d07e",
+      "token_id": 129,
+      "word": "suno"
+    },
+    {
+      "book": "pu",
+      "linku_id": "supa",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/supa.toml",
+      "source_sha256": "49c930dc7c6224fe7faa6edf4349289d019ff7265abca7ed22240b653450d62d",
+      "token_id": 130,
+      "word": "supa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "suwi",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/suwi.toml",
+      "source_sha256": "b93e177c40ac89d0605f3215fc62e1f31a43d1e1fcc91b81b7a9e69c5e50e82a",
+      "token_id": 131,
+      "word": "suwi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "tan",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/tan.toml",
+      "source_sha256": "d709175173245fc62f9ae75e02e03217a313436d254b8e58791d31947c1e3907",
+      "token_id": 132,
+      "word": "tan"
+    },
+    {
+      "book": "pu",
+      "linku_id": "taso",
+      "linku_usage_category": "core",
+      "partition": "FUNCTION",
+      "source_path": "words/metadata/taso.toml",
+      "source_sha256": "c398e2a54e464b5e4d1664d6e195d1e34c5a0755f0297ce1750ec298974f2ae8",
+      "token_id": 133,
+      "word": "taso"
+    },
+    {
+      "book": "pu",
+      "linku_id": "tawa",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/tawa.toml",
+      "source_sha256": "c505f3f879afaf14d73265c8f14e41df0339b53af6fd3c893504c9813ff7f68e",
+      "token_id": 134,
+      "word": "tawa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "telo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/telo.toml",
+      "source_sha256": "ef806c86621f8ccf3e1cb03ddee890464a70b0ed9a12a3cd2716e2520fbd7fc2",
+      "token_id": 135,
+      "word": "telo"
+    },
+    {
+      "book": "pu",
+      "linku_id": "tenpo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/tenpo.toml",
+      "source_sha256": "1d2b2b6b93f8d5166d1482ef1b292eda4d815314c3e2a2a926b32311edda6667",
+      "token_id": 136,
+      "word": "tenpo"
+    },
+    {
+      "book": "pu",
+      "linku_id": "toki",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/toki.toml",
+      "source_sha256": "067aca619466b656c7996e496e198793a6f1cdb772b199583a796047621830c0",
+      "token_id": 137,
+      "word": "toki"
+    },
+    {
+      "book": "pu",
+      "linku_id": "tomo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/tomo.toml",
+      "source_sha256": "0f3d5f98505b057bbf46456eaf3f74e0ad37568ccd2be36026a55ecba3506a24",
+      "token_id": 138,
+      "word": "tomo"
+    },
+    {
+      "book": "ku suli",
+      "linku_id": "tonsi",
+      "linku_usage_category": "common",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/tonsi.toml",
+      "source_sha256": "fc970df13e401e8a39371c97a620ac05addd8e92d7ad1f87fd2915f2b9a5df39",
+      "token_id": 139,
+      "word": "tonsi"
+    },
+    {
+      "book": "pu",
+      "linku_id": "tu",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/tu.toml",
+      "source_sha256": "130518591a83abfb3052310111cda93d5154bab979a5bfe2e1762711e2dd6544",
+      "token_id": 140,
+      "word": "tu"
+    },
+    {
+      "book": "pu",
+      "linku_id": "unpa",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/unpa.toml",
+      "source_sha256": "948707afbc79d82949dc7ce97c48b21453c319f96cc94b82c9995a4ccdf74d9a",
+      "token_id": 141,
+      "word": "unpa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "uta",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/uta.toml",
+      "source_sha256": "2f43bb4bb16dbef0c7427b15c0dafb56494d8f8e4c6963c58e21a50908890d7f",
+      "token_id": 142,
+      "word": "uta"
+    },
+    {
+      "book": "pu",
+      "linku_id": "utala",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/utala.toml",
+      "source_sha256": "3d59862f0e635da5b3410a726166d8c9df8ea7b97d5c40f615f332fee1d6f205",
+      "token_id": 143,
+      "word": "utala"
+    },
+    {
+      "book": "pu",
+      "linku_id": "walo",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/walo.toml",
+      "source_sha256": "da1a5af0f929ea0e54e4e71add4deab7ce40584d2ce8c169322a2bdcffee9025",
+      "token_id": 144,
+      "word": "walo"
+    },
+    {
+      "book": "pu",
+      "linku_id": "wan",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/wan.toml",
+      "source_sha256": "9c0c149fa37a48ba0c8fdfb9cbc7301b29a2db959cc5f90c93fe28b56e3817d0",
+      "token_id": 145,
+      "word": "wan"
+    },
+    {
+      "book": "pu",
+      "linku_id": "waso",
+      "linku_usage_category": "core",
+      "partition": "GROUND_VISUAL",
+      "source_path": "words/metadata/waso.toml",
+      "source_sha256": "f59a67b294ed5643c4903c9512d9fe66a7e44299717484fce99a7bf72f3e4ed0",
+      "token_id": 146,
+      "word": "waso"
+    },
+    {
+      "book": "pu",
+      "linku_id": "wawa",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/wawa.toml",
+      "source_sha256": "0d8d0d72e0ff2806a058c9b4a1ebd182b2830758f80f148c1460100d69d2d418",
+      "token_id": 147,
+      "word": "wawa"
+    },
+    {
+      "book": "pu",
+      "linku_id": "weka",
+      "linku_usage_category": "core",
+      "partition": "GROUND_TEMPORAL",
+      "source_path": "words/metadata/weka.toml",
+      "source_sha256": "0cb28af2608e0b2ff21b2dbe706f8153415acd26a319bb91200283ae4b0f19f1",
+      "token_id": 148,
+      "word": "weka"
+    },
+    {
+      "book": "pu",
+      "linku_id": "wile",
+      "linku_usage_category": "core",
+      "partition": "DEFERRED",
+      "source_path": "words/metadata/wile.toml",
+      "source_sha256": "cd675be1ac5fa42bb897095cab0ba031f951fd7626787536c5876fa826182e95",
+      "token_id": 149,
+      "word": "wile"
+    }
+  ]
+}

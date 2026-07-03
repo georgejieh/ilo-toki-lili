@@ -1,0 +1,25 @@
+{
+  "artifact": "data/vocab.json",
+  "artifact_status": "draft",
+  "generated_date": "2026-07-02",
+  "generator": "scripts/build_vocab.py",
+  "generator_commit": "ee9576126cd2f2e501e341205e3d18e32f256a85",
+  "retrieved_at": "2026-07-02",
+  "schema_version": 1,
+  "selected_word_count": 137,
+  "selection": {
+    "book_values": [
+      "pu",
+      "ku suli"
+    ],
+    "exclude_deprecated": true,
+    "exclude_parent_entries": true
+  },
+  "source_file_count": 178,
+  "source_snapshot": "data/linku_source_snapshot.json",
+  "source_snapshot_sha256": "c2c3c57f6c693e4fca7c2040c7eba3ee8fd2c443800cd72d4560b7933c479d1c",
+  "token_count": 152,
+  "upstream_commit": "d73c4921c63d239d9f96972356c2fcf86a767b1c",
+  "upstream_license": "CC-BY-SA-4.0",
+  "upstream_repository": "https://github.com/lipu-linku/sona"
+}

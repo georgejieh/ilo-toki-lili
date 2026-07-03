@@ -11,7 +11,9 @@ T4 ingestion should preserve per-item source URL or git commit, author when know
 Planned modules:
 
 - `VOCAB_SOURCE.md`: Linku source, acquisition, license, and attribution policy for vocabulary artifacts.
+- `linku_source_snapshot.json`: compact, checksummed Linku metadata snapshot used to draft the vocabulary.
 - `vocab.json`: the frozen 137-word vocabulary plus special tokens.
+- `vocab_source_manifest.json`: provenance for the generated vocabulary artifact.
 - `holdouts.json`: locked compositional holdout registry.
 - `schemas.py`: pydantic models shared by data generation, training, eval, and serving.
 - `tokenizer.py`: closed-vocabulary word tokenizer.
