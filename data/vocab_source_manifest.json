@@ -5,7 +5,7 @@
   "freeze_decision": "docs/decisions/2026-07-03-vocabulary-freeze.md",
   "generated_date": "2026-07-03",
   "generator": "scripts/build_vocab.py",
-  "generator_commit": "5353c9e3205dab16de73951c7cd3e4d9af9bbe4c",
+  "generator_commit": "cc611ed913f6fe7054ceeda63869a7c236a8a40f",
   "retrieved_at": "2026-07-02",
   "schema_version": 1,
   "selected_word_count": 137,
