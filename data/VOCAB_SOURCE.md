@@ -2,7 +2,7 @@
 
 Date: 2026-07-02
 
-Status: accepted for Phase 0 source acquisition. The exact `data/vocab.json` contents and partition tags are frozen separately in the Phase 0 vocabulary decision.
+Status: accepted for Phase 0 source acquisition. The exact `data/vocab.json` contents and partition tags are frozen by the Phase 0 vocabulary decision.
 
 ## Canonical Upstream
 

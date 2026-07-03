@@ -19,7 +19,7 @@ DEFAULT_MANIFEST = ROOT / "data" / "vocab_source_manifest.json"
 
 
 def main(argv: Sequence[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Build draft project vocabulary artifacts.")
+    parser = argparse.ArgumentParser(description="Build project vocabulary artifacts.")
     parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)

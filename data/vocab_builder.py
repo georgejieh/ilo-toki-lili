@@ -17,6 +17,8 @@ SPECIAL_TOKENS: Final = ("<pad>", "<bos>", "<eos>", "<unk>", "<name>", "<img>", 
 PUNCTUATION_TOKENS: Final = (".", ",", "?", "!", ":", '"')
 RESERVED_TOKENS: Final = ("<reserved_0>", "<reserved_1>")
 VALID_PARTITIONS: Final = ("GROUND_VISUAL", "GROUND_TEMPORAL", "FUNCTION", "DEFERRED")
+VOCAB_SCHEMA_VERSION: Final = 2
+VOCAB_STATUS: Final = "frozen"
 
 FUNCTION_WORDS: Final = frozenset(
     {
@@ -27,6 +29,7 @@ FUNCTION_WORDS: Final = frozenset(
         "en",
         "la",
         "li",
+        "nanpa",
         "ni",
         "o",
         "pi",
@@ -53,7 +56,6 @@ GROUND_VISUAL_WORDS: Final = frozenset(
         "kili",
         "kiwen",
         "ko",
-        "kon",
         "kule",
         "kute",
         "laso",
@@ -75,7 +77,6 @@ GROUND_VISUAL_WORDS: Final = frozenset(
         "mun",
         "mute",
         "namako",
-        "nanpa",
         "nena",
         "noka",
         "oko",
@@ -113,7 +114,6 @@ GROUND_TEMPORAL_WORDS: Final = frozenset(
         "alasa",
         "awen",
         "jo",
-        "kalama",
         "kama",
         "kepeken",
         "kipisi",
@@ -121,7 +121,6 @@ GROUND_TEMPORAL_WORDS: Final = frozenset(
         "lape",
         "lukin",
         "moli",
-        "mu",
         "musi",
         "open",
         "pakala",
@@ -132,7 +131,6 @@ GROUND_TEMPORAL_WORDS: Final = frozenset(
         "tan",
         "tawa",
         "tenpo",
-        "toki",
         "utala",
         "weka",
     }
@@ -207,17 +205,18 @@ def build_vocab_artifacts(
         )
 
     words = [_word_entry(word, index) for index, word in enumerate(selected_words)]
-    token_count = len(SPECIAL_TOKENS) + len(PUNCTUATION_TOKENS) + len(words) + len(RESERVED_TOKENS)
+    tokens = _token_entries(words)
 
     vocab = {
-        "schema_version": 1,
-        "status": "draft",
+        "schema_version": VOCAB_SCHEMA_VERSION,
+        "status": VOCAB_STATUS,
         "language": "tok",
         "word_count": len(words),
-        "token_count": token_count,
+        "token_count": len(tokens),
         "special_tokens": list(SPECIAL_TOKENS),
         "punctuation_tokens": list(PUNCTUATION_TOKENS),
         "reserved_tokens": list(RESERVED_TOKENS),
+        "tokens": tokens,
         "selection": {
             "book_values": list(SELECTED_BOOKS),
             "exclude_deprecated": True,
@@ -237,7 +236,9 @@ def build_vocab_artifacts(
     manifest = {
         "schema_version": 1,
         "artifact": "data/vocab.json",
-        "artifact_status": "draft",
+        "artifact_schema_version": VOCAB_SCHEMA_VERSION,
+        "artifact_status": VOCAB_STATUS,
+        "freeze_decision": "docs/decisions/2026-07-03-vocabulary-freeze.md",
         "generated_date": generated_date,
         "generator": "scripts/build_vocab.py",
         "generator_commit": generator_commit,
@@ -250,7 +251,7 @@ def build_vocab_artifacts(
         "selection": vocab["selection"],
         "source_file_count": len(source_files),
         "selected_word_count": len(words),
-        "token_count": token_count,
+        "token_count": len(tokens),
     }
     return vocab, manifest
 
@@ -282,6 +283,38 @@ def _word_entry(word: SnapshotWord, word_index: int) -> dict[str, Any]:
         "source_path": word.source_path,
         "source_sha256": word.source_sha256,
     }
+
+
+def _token_entries(words: Sequence[Mapping[str, Any]]) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
+
+    for token_id, token in enumerate(SPECIAL_TOKENS):
+        entries.append({"token_id": token_id, "token": token, "kind": "special"})
+
+    punctuation_start = len(entries)
+    for offset, token in enumerate(PUNCTUATION_TOKENS):
+        entries.append(
+            {
+                "token_id": punctuation_start + offset,
+                "token": token,
+                "kind": "punctuation",
+            }
+        )
+
+    for word in words:
+        entries.append(
+            {
+                "token_id": _required_int(word, "token_id"),
+                "token": _required_str(word, "word"),
+                "kind": "word",
+            }
+        )
+
+    reserved_start = len(entries)
+    for offset, token in enumerate(RESERVED_TOKENS):
+        entries.append({"token_id": reserved_start + offset, "token": token, "kind": "reserved"})
+
+    return entries
 
 
 def _load_snapshot_words(snapshot: Mapping[str, Any]) -> list[SnapshotWord]:
@@ -326,4 +359,11 @@ def _required_str(value: Mapping[str, Any], key: str) -> str:
     item = value.get(key)
     if not isinstance(item, str) or not item:
         raise ValueError(f"Expected non-empty string field {key!r}")
+    return item
+
+
+def _required_int(value: Mapping[str, Any], key: str) -> int:
+    item = value.get(key)
+    if not isinstance(item, int):
+        raise ValueError(f"Expected integer field {key!r}")
     return item

@@ -12,7 +12,7 @@ Planned modules:
 
 - `VOCAB_SOURCE.md`: Linku source, acquisition, license, and attribution policy for vocabulary artifacts.
 - `linku_source_snapshot.json`: compact, checksummed Linku metadata snapshot used to draft the vocabulary.
-- `vocab.json`: draft 137-word vocabulary plus special tokens, to be frozen by a dated decision.
+- `vocab.json`: frozen 137-word vocabulary plus explicit token registry.
 - `vocab_source_manifest.json`: provenance for the generated vocabulary artifact.
 - `holdouts.json`: locked compositional holdout registry.
 - `schemas.py`: pydantic models shared by data generation, training, eval, and serving.

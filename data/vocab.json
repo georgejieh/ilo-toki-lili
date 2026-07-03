@@ -12,7 +12,7 @@
     "<reserved_0>",
     "<reserved_1>"
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "selection": {
     "book_values": [
       "pu",
@@ -38,8 +38,770 @@
     "<img>",
     "<sep>"
   ],
-  "status": "draft",
+  "status": "frozen",
   "token_count": 152,
+  "tokens": [
+    {
+      "kind": "special",
+      "token": "<pad>",
+      "token_id": 0
+    },
+    {
+      "kind": "special",
+      "token": "<bos>",
+      "token_id": 1
+    },
+    {
+      "kind": "special",
+      "token": "<eos>",
+      "token_id": 2
+    },
+    {
+      "kind": "special",
+      "token": "<unk>",
+      "token_id": 3
+    },
+    {
+      "kind": "special",
+      "token": "<name>",
+      "token_id": 4
+    },
+    {
+      "kind": "special",
+      "token": "<img>",
+      "token_id": 5
+    },
+    {
+      "kind": "special",
+      "token": "<sep>",
+      "token_id": 6
+    },
+    {
+      "kind": "punctuation",
+      "token": ".",
+      "token_id": 7
+    },
+    {
+      "kind": "punctuation",
+      "token": ",",
+      "token_id": 8
+    },
+    {
+      "kind": "punctuation",
+      "token": "?",
+      "token_id": 9
+    },
+    {
+      "kind": "punctuation",
+      "token": "!",
+      "token_id": 10
+    },
+    {
+      "kind": "punctuation",
+      "token": ":",
+      "token_id": 11
+    },
+    {
+      "kind": "punctuation",
+      "token": "\"",
+      "token_id": 12
+    },
+    {
+      "kind": "word",
+      "token": "a",
+      "token_id": 13
+    },
+    {
+      "kind": "word",
+      "token": "akesi",
+      "token_id": 14
+    },
+    {
+      "kind": "word",
+      "token": "ala",
+      "token_id": 15
+    },
+    {
+      "kind": "word",
+      "token": "alasa",
+      "token_id": 16
+    },
+    {
+      "kind": "word",
+      "token": "ale",
+      "token_id": 17
+    },
+    {
+      "kind": "word",
+      "token": "anpa",
+      "token_id": 18
+    },
+    {
+      "kind": "word",
+      "token": "ante",
+      "token_id": 19
+    },
+    {
+      "kind": "word",
+      "token": "anu",
+      "token_id": 20
+    },
+    {
+      "kind": "word",
+      "token": "awen",
+      "token_id": 21
+    },
+    {
+      "kind": "word",
+      "token": "e",
+      "token_id": 22
+    },
+    {
+      "kind": "word",
+      "token": "en",
+      "token_id": 23
+    },
+    {
+      "kind": "word",
+      "token": "epiku",
+      "token_id": 24
+    },
+    {
+      "kind": "word",
+      "token": "esun",
+      "token_id": 25
+    },
+    {
+      "kind": "word",
+      "token": "ijo",
+      "token_id": 26
+    },
+    {
+      "kind": "word",
+      "token": "ike",
+      "token_id": 27
+    },
+    {
+      "kind": "word",
+      "token": "ilo",
+      "token_id": 28
+    },
+    {
+      "kind": "word",
+      "token": "insa",
+      "token_id": 29
+    },
+    {
+      "kind": "word",
+      "token": "jaki",
+      "token_id": 30
+    },
+    {
+      "kind": "word",
+      "token": "jan",
+      "token_id": 31
+    },
+    {
+      "kind": "word",
+      "token": "jasima",
+      "token_id": 32
+    },
+    {
+      "kind": "word",
+      "token": "jelo",
+      "token_id": 33
+    },
+    {
+      "kind": "word",
+      "token": "jo",
+      "token_id": 34
+    },
+    {
+      "kind": "word",
+      "token": "kala",
+      "token_id": 35
+    },
+    {
+      "kind": "word",
+      "token": "kalama",
+      "token_id": 36
+    },
+    {
+      "kind": "word",
+      "token": "kama",
+      "token_id": 37
+    },
+    {
+      "kind": "word",
+      "token": "kasi",
+      "token_id": 38
+    },
+    {
+      "kind": "word",
+      "token": "ken",
+      "token_id": 39
+    },
+    {
+      "kind": "word",
+      "token": "kepeken",
+      "token_id": 40
+    },
+    {
+      "kind": "word",
+      "token": "kijetesantakalu",
+      "token_id": 41
+    },
+    {
+      "kind": "word",
+      "token": "kili",
+      "token_id": 42
+    },
+    {
+      "kind": "word",
+      "token": "kin",
+      "token_id": 43
+    },
+    {
+      "kind": "word",
+      "token": "kipisi",
+      "token_id": 44
+    },
+    {
+      "kind": "word",
+      "token": "kiwen",
+      "token_id": 45
+    },
+    {
+      "kind": "word",
+      "token": "ko",
+      "token_id": 46
+    },
+    {
+      "kind": "word",
+      "token": "kokosila",
+      "token_id": 47
+    },
+    {
+      "kind": "word",
+      "token": "kon",
+      "token_id": 48
+    },
+    {
+      "kind": "word",
+      "token": "ku",
+      "token_id": 49
+    },
+    {
+      "kind": "word",
+      "token": "kule",
+      "token_id": 50
+    },
+    {
+      "kind": "word",
+      "token": "kulupu",
+      "token_id": 51
+    },
+    {
+      "kind": "word",
+      "token": "kute",
+      "token_id": 52
+    },
+    {
+      "kind": "word",
+      "token": "la",
+      "token_id": 53
+    },
+    {
+      "kind": "word",
+      "token": "lanpan",
+      "token_id": 54
+    },
+    {
+      "kind": "word",
+      "token": "lape",
+      "token_id": 55
+    },
+    {
+      "kind": "word",
+      "token": "laso",
+      "token_id": 56
+    },
+    {
+      "kind": "word",
+      "token": "lawa",
+      "token_id": 57
+    },
+    {
+      "kind": "word",
+      "token": "leko",
+      "token_id": 58
+    },
+    {
+      "kind": "word",
+      "token": "len",
+      "token_id": 59
+    },
+    {
+      "kind": "word",
+      "token": "lete",
+      "token_id": 60
+    },
+    {
+      "kind": "word",
+      "token": "li",
+      "token_id": 61
+    },
+    {
+      "kind": "word",
+      "token": "lili",
+      "token_id": 62
+    },
+    {
+      "kind": "word",
+      "token": "linja",
+      "token_id": 63
+    },
+    {
+      "kind": "word",
+      "token": "lipu",
+      "token_id": 64
+    },
+    {
+      "kind": "word",
+      "token": "loje",
+      "token_id": 65
+    },
+    {
+      "kind": "word",
+      "token": "lon",
+      "token_id": 66
+    },
+    {
+      "kind": "word",
+      "token": "luka",
+      "token_id": 67
+    },
+    {
+      "kind": "word",
+      "token": "lukin",
+      "token_id": 68
+    },
+    {
+      "kind": "word",
+      "token": "lupa",
+      "token_id": 69
+    },
+    {
+      "kind": "word",
+      "token": "ma",
+      "token_id": 70
+    },
+    {
+      "kind": "word",
+      "token": "mama",
+      "token_id": 71
+    },
+    {
+      "kind": "word",
+      "token": "mani",
+      "token_id": 72
+    },
+    {
+      "kind": "word",
+      "token": "meli",
+      "token_id": 73
+    },
+    {
+      "kind": "word",
+      "token": "meso",
+      "token_id": 74
+    },
+    {
+      "kind": "word",
+      "token": "mi",
+      "token_id": 75
+    },
+    {
+      "kind": "word",
+      "token": "mije",
+      "token_id": 76
+    },
+    {
+      "kind": "word",
+      "token": "misikeke",
+      "token_id": 77
+    },
+    {
+      "kind": "word",
+      "token": "moku",
+      "token_id": 78
+    },
+    {
+      "kind": "word",
+      "token": "moli",
+      "token_id": 79
+    },
+    {
+      "kind": "word",
+      "token": "monsi",
+      "token_id": 80
+    },
+    {
+      "kind": "word",
+      "token": "monsuta",
+      "token_id": 81
+    },
+    {
+      "kind": "word",
+      "token": "mu",
+      "token_id": 82
+    },
+    {
+      "kind": "word",
+      "token": "mun",
+      "token_id": 83
+    },
+    {
+      "kind": "word",
+      "token": "musi",
+      "token_id": 84
+    },
+    {
+      "kind": "word",
+      "token": "mute",
+      "token_id": 85
+    },
+    {
+      "kind": "word",
+      "token": "n",
+      "token_id": 86
+    },
+    {
+      "kind": "word",
+      "token": "namako",
+      "token_id": 87
+    },
+    {
+      "kind": "word",
+      "token": "nanpa",
+      "token_id": 88
+    },
+    {
+      "kind": "word",
+      "token": "nasa",
+      "token_id": 89
+    },
+    {
+      "kind": "word",
+      "token": "nasin",
+      "token_id": 90
+    },
+    {
+      "kind": "word",
+      "token": "nena",
+      "token_id": 91
+    },
+    {
+      "kind": "word",
+      "token": "ni",
+      "token_id": 92
+    },
+    {
+      "kind": "word",
+      "token": "nimi",
+      "token_id": 93
+    },
+    {
+      "kind": "word",
+      "token": "noka",
+      "token_id": 94
+    },
+    {
+      "kind": "word",
+      "token": "o",
+      "token_id": 95
+    },
+    {
+      "kind": "word",
+      "token": "oko",
+      "token_id": 96
+    },
+    {
+      "kind": "word",
+      "token": "olin",
+      "token_id": 97
+    },
+    {
+      "kind": "word",
+      "token": "ona",
+      "token_id": 98
+    },
+    {
+      "kind": "word",
+      "token": "open",
+      "token_id": 99
+    },
+    {
+      "kind": "word",
+      "token": "pakala",
+      "token_id": 100
+    },
+    {
+      "kind": "word",
+      "token": "pali",
+      "token_id": 101
+    },
+    {
+      "kind": "word",
+      "token": "palisa",
+      "token_id": 102
+    },
+    {
+      "kind": "word",
+      "token": "pan",
+      "token_id": 103
+    },
+    {
+      "kind": "word",
+      "token": "pana",
+      "token_id": 104
+    },
+    {
+      "kind": "word",
+      "token": "pi",
+      "token_id": 105
+    },
+    {
+      "kind": "word",
+      "token": "pilin",
+      "token_id": 106
+    },
+    {
+      "kind": "word",
+      "token": "pimeja",
+      "token_id": 107
+    },
+    {
+      "kind": "word",
+      "token": "pini",
+      "token_id": 108
+    },
+    {
+      "kind": "word",
+      "token": "pipi",
+      "token_id": 109
+    },
+    {
+      "kind": "word",
+      "token": "poka",
+      "token_id": 110
+    },
+    {
+      "kind": "word",
+      "token": "poki",
+      "token_id": 111
+    },
+    {
+      "kind": "word",
+      "token": "pona",
+      "token_id": 112
+    },
+    {
+      "kind": "word",
+      "token": "pu",
+      "token_id": 113
+    },
+    {
+      "kind": "word",
+      "token": "sama",
+      "token_id": 114
+    },
+    {
+      "kind": "word",
+      "token": "seli",
+      "token_id": 115
+    },
+    {
+      "kind": "word",
+      "token": "selo",
+      "token_id": 116
+    },
+    {
+      "kind": "word",
+      "token": "seme",
+      "token_id": 117
+    },
+    {
+      "kind": "word",
+      "token": "sewi",
+      "token_id": 118
+    },
+    {
+      "kind": "word",
+      "token": "sijelo",
+      "token_id": 119
+    },
+    {
+      "kind": "word",
+      "token": "sike",
+      "token_id": 120
+    },
+    {
+      "kind": "word",
+      "token": "sin",
+      "token_id": 121
+    },
+    {
+      "kind": "word",
+      "token": "sina",
+      "token_id": 122
+    },
+    {
+      "kind": "word",
+      "token": "sinpin",
+      "token_id": 123
+    },
+    {
+      "kind": "word",
+      "token": "sitelen",
+      "token_id": 124
+    },
+    {
+      "kind": "word",
+      "token": "soko",
+      "token_id": 125
+    },
+    {
+      "kind": "word",
+      "token": "sona",
+      "token_id": 126
+    },
+    {
+      "kind": "word",
+      "token": "soweli",
+      "token_id": 127
+    },
+    {
+      "kind": "word",
+      "token": "suli",
+      "token_id": 128
+    },
+    {
+      "kind": "word",
+      "token": "suno",
+      "token_id": 129
+    },
+    {
+      "kind": "word",
+      "token": "supa",
+      "token_id": 130
+    },
+    {
+      "kind": "word",
+      "token": "suwi",
+      "token_id": 131
+    },
+    {
+      "kind": "word",
+      "token": "tan",
+      "token_id": 132
+    },
+    {
+      "kind": "word",
+      "token": "taso",
+      "token_id": 133
+    },
+    {
+      "kind": "word",
+      "token": "tawa",
+      "token_id": 134
+    },
+    {
+      "kind": "word",
+      "token": "telo",
+      "token_id": 135
+    },
+    {
+      "kind": "word",
+      "token": "tenpo",
+      "token_id": 136
+    },
+    {
+      "kind": "word",
+      "token": "toki",
+      "token_id": 137
+    },
+    {
+      "kind": "word",
+      "token": "tomo",
+      "token_id": 138
+    },
+    {
+      "kind": "word",
+      "token": "tonsi",
+      "token_id": 139
+    },
+    {
+      "kind": "word",
+      "token": "tu",
+      "token_id": 140
+    },
+    {
+      "kind": "word",
+      "token": "unpa",
+      "token_id": 141
+    },
+    {
+      "kind": "word",
+      "token": "uta",
+      "token_id": 142
+    },
+    {
+      "kind": "word",
+      "token": "utala",
+      "token_id": 143
+    },
+    {
+      "kind": "word",
+      "token": "walo",
+      "token_id": 144
+    },
+    {
+      "kind": "word",
+      "token": "wan",
+      "token_id": 145
+    },
+    {
+      "kind": "word",
+      "token": "waso",
+      "token_id": 146
+    },
+    {
+      "kind": "word",
+      "token": "wawa",
+      "token_id": 147
+    },
+    {
+      "kind": "word",
+      "token": "weka",
+      "token_id": 148
+    },
+    {
+      "kind": "word",
+      "token": "wile",
+      "token_id": 149
+    },
+    {
+      "kind": "reserved",
+      "token": "<reserved_0>",
+      "token_id": 150
+    },
+    {
+      "kind": "reserved",
+      "token": "<reserved_1>",
+      "token_id": 151
+    }
+  ],
   "word_count": 137,
   "words": [
     {
@@ -276,7 +1038,7 @@
       "book": "pu",
       "linku_id": "kalama",
       "linku_usage_category": "core",
-      "partition": "GROUND_TEMPORAL",
+      "partition": "DEFERRED",
       "source_path": "words/metadata/kalama.toml",
       "source_sha256": "23d7f9b21f74fd301f90a3f0644f4cd0fa0ed98c156b2c602b6eb4ba26a002e0",
       "token_id": 36,
@@ -396,7 +1158,7 @@
       "book": "pu",
       "linku_id": "kon",
       "linku_usage_category": "core",
-      "partition": "GROUND_VISUAL",
+      "partition": "DEFERRED",
       "source_path": "words/metadata/kon.toml",
       "source_sha256": "50468e7a3579cecd7f87e659c6a56c624d048a61890c1fbc4a5a66e5f6cce653",
       "token_id": 48,
@@ -736,7 +1498,7 @@
       "book": "pu",
       "linku_id": "mu",
       "linku_usage_category": "core",
-      "partition": "GROUND_TEMPORAL",
+      "partition": "DEFERRED",
       "source_path": "words/metadata/mu.toml",
       "source_sha256": "142f979f76876884e8a025ff131b86f55985eebc8ce965699c394113d7ff5ce1",
       "token_id": 82,
@@ -796,7 +1558,7 @@
       "book": "pu",
       "linku_id": "nanpa",
       "linku_usage_category": "core",
-      "partition": "GROUND_VISUAL",
+      "partition": "FUNCTION",
       "source_path": "words/metadata/nanpa.toml",
       "source_sha256": "353799c60a2eb694ee602a6010716704827df42566c785250969ad0bb241f253",
       "token_id": 88,
@@ -1286,7 +2048,7 @@
       "book": "pu",
       "linku_id": "toki",
       "linku_usage_category": "core",
-      "partition": "GROUND_TEMPORAL",
+      "partition": "DEFERRED",
       "source_path": "words/metadata/toki.toml",
       "source_sha256": "067aca619466b656c7996e496e198793a6f1cdb772b199583a796047621830c0",
       "token_id": 137,
