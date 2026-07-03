@@ -24,7 +24,7 @@
   "source": {
     "retrieved_at": "2026-07-02",
     "snapshot_path": "data/linku_source_snapshot.json",
-    "snapshot_sha256": "c2c3c57f6c693e4fca7c2040c7eba3ee8fd2c443800cd72d4560b7933c479d1c",
+    "snapshot_sha256": "de020074d60230aed5e5deb4b57f1bab77a51c0475b8086cf865186e653e74a6",
     "upstream_commit": "d73c4921c63d239d9f96972356c2fcf86a767b1c",
     "upstream_license": "CC-BY-SA-4.0",
     "upstream_repository": "https://github.com/lipu-linku/sona"
