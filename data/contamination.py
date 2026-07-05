@@ -8,7 +8,12 @@ from typing import Final, Literal
 
 from data.tokenizer import DEFAULT_VOCAB_PATH, Tokenizer, load_tokenizer
 
-type ContaminationReason = Literal["invalid_utf8", "reserved_token", "unknown_token"]
+type ContaminationReason = Literal[
+    "invalid_json",
+    "invalid_utf8",
+    "reserved_token",
+    "unknown_token",
+]
 
 _ALLOWED_TOKEN_KINDS: Final = frozenset({"word", "punctuation", "special"})
 _NAME_INITIALS: Final = frozenset("ABCDEFGHIJKLMNOPQRSTUVWXYZ")

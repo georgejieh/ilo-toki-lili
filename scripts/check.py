@@ -55,6 +55,11 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser.add_argument("--skip-lint", action="store_true", help="Skip ruff.")
     parser.add_argument("--skip-types", action="store_true", help="Skip mypy.")
     parser.add_argument("--skip-tests", action="store_true", help="Run lint and types only.")
+    parser.add_argument(
+        "--skip-contamination",
+        action="store_true",
+        help="Skip contamination scan.",
+    )
     args = parser.parse_args(argv)
 
     commands: list[list[str]] = []
@@ -79,6 +84,11 @@ def main(argv: Sequence[str] | None = None) -> int:
         commands.append(["pytest"])
     else:
         print("No pytest files found; skipping pytest.", flush=True)
+
+    if args.skip_tests or args.skip_contamination:
+        print("Skipping contamination scan by request.", flush=True)
+    else:
+        commands.append(["python", "scripts/check_contamination.py"])
 
     for command in commands:
         return_code = run(command)

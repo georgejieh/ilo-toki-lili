@@ -39,7 +39,7 @@ jobs:
       - name: Sync dependencies
         run: uv sync --locked --extra dev
 
-      - name: Run lint, types, and tests
+      - name: Run lint, types, tests, and contamination checks
         run: uv run --locked --extra dev python scripts/check.py
 
       - name: Run pre-commit hooks

@@ -71,7 +71,7 @@ Run the baseline checks:
 uv run --extra dev python scripts/check.py
 ```
 
-The check runner invokes `ruff check .`, strict `mypy` over current Python files, and `pytest` when test files exist.
+The check runner invokes `ruff check .`, strict `mypy` over current Python files, `pytest` when test files exist, and the contamination scan for model-visible text artifacts.
 
 Install the commit hooks:
 
@@ -85,7 +85,7 @@ Run the hooks across the repo:
 uv run --extra dev pre-commit run --all-files
 ```
 
-The hooks run ruff, type checks, a pytest smoke pass, and a local secret scan.
+The hooks run ruff, type checks, a pytest plus contamination smoke pass, and a local secret scan.
 
 GitHub Actions runs the same locked baseline on pushes and pull requests to `main`.
 

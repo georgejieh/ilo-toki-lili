@@ -20,7 +20,7 @@ repos:
         types_or: [python, pyi]
 
       - id: pytest-smoke
-        name: pytest smoke
+        name: pytest and contamination smoke
         entry: uv run --extra dev python scripts/check.py --skip-lint --skip-types
         language: system
         pass_filenames: false
