@@ -15,6 +15,7 @@ Planned modules:
 - `vocab.json`: frozen 137-word vocabulary plus explicit token registry.
 - `vocab_source_manifest.json`: provenance for the generated vocabulary artifact.
 - `holdouts.json`: locked compositional holdout registry.
+- `contamination.py`: core model-visible text linter for vocabulary, punctuation, and special-token allowlists.
 - `schemas.py`: pydantic models shared by data generation, training, eval, and serving.
 - `tokenizer.py`: closed-vocabulary word tokenizer.
 - `grammar/`: Toki Pona grammar, description generation, parsing, and style filters.
