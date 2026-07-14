@@ -3,7 +3,7 @@ from __future__ import annotations
 import importlib
 from types import ModuleType
 
-TOP_LEVEL_MODULES = ("data", "models", "train", "eval")
+TOP_LEVEL_MODULES = ("configs", "data", "models", "train", "eval")
 
 
 def test_top_level_modules_import() -> None:
