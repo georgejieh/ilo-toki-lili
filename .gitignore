@@ -43,6 +43,8 @@ MASTER_PLAN.md
 .aider*
 .cursor/
 .continue/
+.hermes.md
+.hermes/
 
 # Data, model artifacts, and experiment outputs
 data/raw/
